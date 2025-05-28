@@ -43,7 +43,7 @@ AI/
 └── README.md
 ---
 
-## 🔄 Workflow Detalhado
+## 🔄 Workflowzinho
 
 ```mermaid
 flowchart TD
@@ -51,8 +51,8 @@ flowchart TD
     B -->|cleaner| C(.zip Unity-only)
     C -->|decompiler| D[Fonte + Il2cpp]
     D -->|filter_il2cpp| E[Offsets limpos]
-    E -->|vm_client| F[VM Web autenticada]
+    E -->|vm_client| F[VPS autenticada]
     F -->|gemini_client| G[Resposta Gemini]
-    G -->|salva| H[output.json / script.js]
+    G -->|salva| H[MVP.txt]
 ```
 
