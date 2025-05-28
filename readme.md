@@ -28,18 +28,31 @@ Tudo isso vai ser automático.
 
 AI/
 ├── cli.py # Entrypoint de linha de comando
+
 ├── config.py # Variáveis de ambiente & caminhos
+
 ├── core/
+
 │ ├── apk_scanner.py # Localiza e classifica arquivos Unity x inúteis
+
 │ ├── cleaner.py # Exclui e gera .zip enxuto
-│ ├── decompiler.py # Jadx + apktool wrapper
+
+│ ├── decompiler.py # Desasembler + apktool wrapper
+
 │ ├── filter_il2cpp.py # Mantém offsets e símbolos relevantes
+
 │ └── zipper.py # Compactação final
+
 ├── services/
-│ ├── vm_client.py # Comunicação com VM web (OAuth Google)
+
+│ ├── vm_client.py # Comunicação com a VPS
+
 │ └── gemini_client.py # SDK simples para Gemini API
+
 ├── web/ # (Opcional) mini-painel Flask/FastAPI
+
 ├── tests/ # Pytest & fixtures
+
 └── README.md
 ---
 
