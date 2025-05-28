@@ -49,9 +49,9 @@ AI/
 
 │ ├── vm_client.py # Comunicação com a VPS
 
-│ └── gemini_client.py # SDK simples para Gemini API
+│ └── gemini_client.py # SDK simples pro Gemini API
 
-├── web/ # (Opcional) mini-painel Flask/FastAPI
+├── web/ # Painel de gerenciamento de usuários e processamento
 
 ├── tests/ # Pytest & fixtures
 
