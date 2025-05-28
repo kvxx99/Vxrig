@@ -26,7 +26,9 @@ Tudo isso vai ser automático.
 
 ## 🗂️ Estrutura do Repositório
 
+```
 AI/
+
 ├── cli.py # Entrypoint de linha de comando
 
 ├── config.py # Variáveis de ambiente & caminhos
@@ -53,7 +55,7 @@ AI/
 
 ├── tests/ # Pytest & fixtures
 
-└── README.md
+└── README.md ```
 ---
 
 ## 🔄 Workflowzinho
