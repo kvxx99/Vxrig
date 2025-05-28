@@ -55,7 +55,8 @@ AI/
 
 ├── tests/ # Pytest & fixtures
 
-└── README.md ```
+└── README.md
+```
 ---
 
 ## 🔄 Workflowzinho
