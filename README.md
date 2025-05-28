@@ -1,4 +1,4 @@
-<h1 align="center">🗜️ Unity-APK Slimmer</h1>
+<h1 align="center">VX</h1>
 <p align="center">
   <em>Remover arquivos pesados e inúteis de APKs Unity, a ideia é pegar apenas o que importa
   e enviar o resultado limpo para a LLM, colher o output e jogar pro mod</em>
