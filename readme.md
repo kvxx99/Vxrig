@@ -53,5 +53,6 @@ flowchart TD
     D -->|filter_il2cpp| E[Offsets limpos]
     E -->|vm_client| F[VM Web autenticada]
     F -->|gemini_client| G[Resposta Gemini]
-    G -->|salva| H[output.json / script.js]```
+    G -->|salva| H[output.json / script.js]
+```
 
