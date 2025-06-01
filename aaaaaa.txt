@@ -1,0 +1,8 @@
+
+O erro indica que o método `classifier()` está sendo usado incorretamente na task `sourceJar` dentro do arquivo `/home/user/termux-app/terminal-emulator/build.gradle`. Preciso atualizar esse arquivo para a sintaxe correta do Gradle.
+
+Por favor, revise o arquivo `/home/user/termux-app/terminal-emulator/build.gradle` e substitua a chamada ao método `classifier()` na task `sourceJar` pela forma moderna de definir o classificador do artefato, que é usando a propriedade `archiveClassifier.set()`.
+
+Não modifique nenhum outro arquivo além de `/home/user/termux-app/terminal-emulator/build.gradle`.
+
+Se o arquivo `terminal-emulator/build.gradle` não tiver uma task explicitamente chamada `sourceJar` mas estiver configurando o classificador para as sources de outra forma (por exemplo, através de um plugin ou outra configuração), ajuste a sintaxe de acordo com a recomendação do erro (usando `archiveClassifier`).
